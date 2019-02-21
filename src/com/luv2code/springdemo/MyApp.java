@@ -4,10 +4,10 @@ public class MyApp {
 
 	public static void main(String[] args) {
 		//create object
-		Coach theCoach = new TrackCoach();
+		Coach theCoach = new HockeyCoach();
 		
 		//use the object
-		System.out.println(theCoach.getDailyWorkout());
+		System.out.println(theCoach.getDailyFortune());
 	}
 
 }
