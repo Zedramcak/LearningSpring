@@ -6,7 +6,7 @@ public class HappyFortuneService implements FortuneService {
 	
 	@Override
 	public String getFortune() {
-		int random = (int) (Math.random()*3);
+		int random = (int) (Math.random()*fortunes.length);
 		return fortunes[random];
 	}
 
